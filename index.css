@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+div span{
+    display: inline-block;
+}
+
+.container {
+    position: relative;
+    width: 575px;
+    height: 500px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* board-title-home */
+
+#teamtext{
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#scores{
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#hometext, #guesttext{
+    position: relative;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+#buttons{
+    position: relative;
+    left: -5px;
+    top: 50px;
+}
+#add-points{
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    display: flex;
+    
+}
+
+#point-text{
+    width: 40px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;;
+    text-align: center;
+    color: #9AABD8;
+    line-height: 15px;
+
+}
+button.buttonstyle{
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
